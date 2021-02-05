@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  max-width: 900px;
+}
+.container p{
+  padding-left: 5%;
+}
+.container ul{
+  display: flex;
+  list-style-type: none;
+}
+.container li{
+  width: 200px;
+}
+.container a{
+  text-decoration: none;
+  margin-left: 15%;
+}
+.container a:hover{
+  text-decoration: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
